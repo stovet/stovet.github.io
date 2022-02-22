@@ -1,8 +1,53 @@
 body {
   margin-right: 0px;
   margin-left: 0px;
+  background-color: lightgrey;
 }
 /* HEADER */
 .Header{
   background-color: lightgrey;
+}
+nav {
+  position: absolute;
+  right: 20px;
+}
+
+.Header ul {
+  list-style-type: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: orangered;
+  font-size: large;
+  font-weight: bold;
+}
+li {
+  margin-right: 10px;
+}
+
+#me {
+  margin: 20px 0 0 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 40%;
+}
+
+/* MAIN  */
+
+section {
+  margin: 15px 0 0 20px;
+  width: 50%;
+}
+
+
+/* PROJECTS */
+.Projects ul {
+  list-style-type: none;
+}
+.Projects li {
+  margin-bottom: 10px;
 }
