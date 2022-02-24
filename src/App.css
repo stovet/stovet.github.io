@@ -1,20 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shizuru&display=swap');
+h1 {
+  font-family: 'Shizuru', cursive;
+  font-size: 50px;
+  text-align: center;
+}
 body {
   margin-right: 0px;
   margin-left: 0px;
-  background-color: lightgrey;
+  background-color: rgb(219, 218, 218);
+  font-family: 'Architects Daughter', cursive;
 }
 /* HEADER */
 .Header{
-  background-color: lightgrey;
+  background-color: rgb(151, 150, 150);
+  width: 100%;
+  height: 50px;
 }
 nav {
-  position: absolute;
+  font-weight: bold;
   right: 20px;
 }
 
 .Header ul {
   list-style-type: none;
   display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+  
+  padding-top: 14px;
 }
 a {
   text-decoration: none;
@@ -22,8 +35,11 @@ a {
 }
 a:hover {
   color: orangered;
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
+}
+.Header li {
+  margin-right: 20px;
 }
 li {
   margin-right: 10px;
@@ -47,7 +63,10 @@ section {
 /* PROJECTS */
 .Projects ul {
   list-style-type: none;
+  text-align: center;
+  padding-left: 0px;
 }
 .Projects li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }

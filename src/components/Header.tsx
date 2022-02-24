@@ -9,7 +9,7 @@ function Header(){
                     <ul>
                         <li><Link to={"/"}>Home</Link></li>
                         <li><Link to={"/Projects"}>Projects</Link></li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="https://github.com/stovet">Github</a></li>
 
                     </ul>
                 </nav>
